@@ -18,7 +18,6 @@ import PriceImpactWarning from 'components/swap/PriceImpactWarning'
 import SwapDetailsDropdown from 'components/swap/SwapDetailsDropdown'
 import UnsupportedCurrencyFooter from 'components/swap/UnsupportedCurrencyFooter'
 import TokenSafetyModal from 'components/TokenSafety/TokenSafetyModal'
-import { MouseoverTooltip } from 'components/Tooltip'
 import { isSupportedChain } from 'constants/chains'
 import { NavBarVariant, useNavBarFlag } from 'featureFlags/flags/navBar'
 import { RedesignVariant, useRedesignFlag } from 'featureFlags/flags/redesign'
@@ -27,7 +26,7 @@ import useTransactionDeadline from 'hooks/useTransactionDeadline'
 import JSBI from 'jsbi'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { ReactNode } from 'react'
-import { ArrowDown, CheckCircle, HelpCircle } from 'react-feather'
+import { ArrowDown, CheckCircle } from 'react-feather'
 import { useNavigate } from 'react-router-dom'
 import { Text } from 'rebass'
 import { useToggleWalletModal } from 'state/application/hooks'
@@ -614,7 +613,7 @@ export default function Swap() {
                     color={theme.textPrimary}
                   >
                     <ArrowDown
-                      size="16"
+                      size="26"
                       color={
                         currencies[Field.INPUT] && currencies[Field.OUTPUT]
                           ? theme.deprecated_text1
@@ -729,7 +728,7 @@ export default function Swap() {
                               signatureState === UseERC20PermitState.SIGNED ? (
                               <Trans>You can now trade {currencies[Field.INPUT]?.symbol}</Trans>
                             ) : (
-                              <Trans>Allow the Uniswap Protocol to use your {currencies[Field.INPUT]?.symbol}</Trans>
+                              <Trans>Allow the UniLock Protocol for swap.</Trans>
                             )}
                           </span>
                           {approvalPending || approvalState === ApprovalState.PENDING ? (
@@ -738,16 +737,7 @@ export default function Swap() {
                             signatureState === UseERC20PermitState.SIGNED ? (
                             <CheckCircle size="20" color={theme.deprecated_green1} />
                           ) : (
-                            <MouseoverTooltip
-                              text={
-                                <Trans>
-                                  You must give the Uniswap smart contracts permission to use your{' '}
-                                  {currencies[Field.INPUT]?.symbol}. You only have to do this once per token.
-                                </Trans>
-                              }
-                            >
-                              <HelpCircle size="20" color={theme.deprecated_white} style={{ marginLeft: '8px' }} />
-                            </MouseoverTooltip>
+                            <span />
                           )}
                         </AutoRow>
                       </ButtonConfirmed>
