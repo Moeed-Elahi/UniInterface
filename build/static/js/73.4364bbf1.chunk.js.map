@@ -1,5 +1,1 @@
-<<<<<<< HEAD:build/static/js/73.4364bbf1.chunk.js.map
 {"version":3,"sources":["../node_modules/@uniswap/widgets/dist/locales/pseudo.js"],"names":["pseudo","messages"],"mappings":"kIAAA,+CAEA,IAAIA,EAAO,CAACC,SAAS","file":"static/js/73.4364bbf1.chunk.js","sourcesContent":["/*eslint-disable*/\n\nvar pseudo={messages:{}};\n\nexport { pseudo as default };\n"],"sourceRoot":""}
-=======
-{"version":3,"sources":["../../../../../../sakura2.0/interface/UniGitInterface/UniInterface/node_modules/@uniswap/widgets/dist/locales/pseudo.js"],"names":["pseudo","messages"],"mappings":"kIAAA,+CAEA,IAAIA,EAAO,CAACC,SAAS","file":"static/js/73.a6c2c9a9.chunk.js","sourcesContent":["/*eslint-disable*/\n\nvar pseudo={messages:{}};\n\nexport { pseudo as default };\n"],"sourceRoot":""}
->>>>>>> d62d4c3db28e4a92c01af26539b74544746bac29:build/static/js/73.a6c2c9a9.chunk.js.map

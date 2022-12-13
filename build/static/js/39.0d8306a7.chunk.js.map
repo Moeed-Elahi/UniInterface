@@ -1,5 +1,1 @@
-<<<<<<< HEAD:build/static/js/39.0d8306a7.chunk.js.map
 {"version":3,"sources":["locales/pseudo.js"],"names":["module","exports","messages"],"mappings":"mHAAkBA,EAAOC,QAAQ,CAACC,SAAS","file":"static/js/39.0d8306a7.chunk.js","sourcesContent":["/*eslint-disable*/module.exports={messages:{}};"],"sourceRoot":""}
-=======
-{"version":3,"sources":["../../../../../../sakura2.0/interface/UniGitInterface/UniInterface/src/locales/pseudo.js"],"names":["module","exports","messages"],"mappings":"mHAAkBA,EAAOC,QAAQ,CAACC,SAAS","file":"static/js/39.1e0a0c7e.chunk.js","sourcesContent":["/*eslint-disable*/module.exports={messages:{}};"],"sourceRoot":""}
->>>>>>> d62d4c3db28e4a92c01af26539b74544746bac29:build/static/js/39.1e0a0c7e.chunk.js.map
