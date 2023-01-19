@@ -236,7 +236,7 @@ export default function Menu() {
               default:
                 return (
                   <MenuFlyout>
-                    <MenuItem href="https://unilock.finance/swap/#/swap">
+                    <MenuItem href="https://uni-lock.finance/swap/#/swap">
                       <div>
                         <Trans>Home</Trans>
                       </div>

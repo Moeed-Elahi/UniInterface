@@ -70,7 +70,7 @@ const PageTabs = () => {
       <MenuItem href={`https://www.dextools.io/app/en/ether/pair-explorer/0x192f75cbb3d6fe7af8d1562d681861b424841406`}>
         <Trans>Chart</Trans>
       </MenuItem>
-      <MenuItem href={`https://unilock.finance/`}>
+      <MenuItem href={`https://uni-lock.finance/`}>
         <Trans>Locker</Trans>
       </MenuItem>
     </>
